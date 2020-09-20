@@ -1,0 +1,6 @@
+
+
+ PROMPT truncating tables data to convert M-DATA to E-DATA 
+
+TRUNCATE TABLE PSTM_ENDPOINT
+/ 

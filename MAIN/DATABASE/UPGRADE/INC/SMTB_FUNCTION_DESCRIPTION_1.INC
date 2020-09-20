@@ -1,0 +1,28 @@
+INSERT INTO SMTB_FUNCTION_DESCRIPTION
+(LANG_CODE, FUNCTION_ID, MAIN_MENU, SUB_MENU_1, SUB_MENU_2, BALOON_HELP, BRANCH_MODULE, BRANCH_PARENT_TASK, DESCRIPTION, RAD_FUNCTION_ID)
+ VALUES 
+('ENG',
+'CFDFRTCD',
+'Periodic Rate Update',
+'Maintenance',
+'Rate Code Definition' || chr(10) || '',
+'','FC',
+'0',
+'Rate Code Definition' || chr(10) || '',
+'CFDFRTCD'
+)
+/
+INSERT INTO SMTB_FUNCTION_DESCRIPTION
+(LANG_CODE, FUNCTION_ID, MAIN_MENU, SUB_MENU_1, SUB_MENU_2, BALOON_HELP, BRANCH_MODULE, BRANCH_PARENT_TASK, DESCRIPTION, RAD_FUNCTION_ID)
+ VALUES 
+('ENG',
+'CFSFRTCD',
+'Periodic Rate Update',
+'View',
+'Rate Code Definition Summary',
+'','FC',
+'0',
+'Rate Code Definition Summary',
+'CFDFRTCD'
+)
+/

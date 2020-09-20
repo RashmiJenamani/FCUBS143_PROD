@@ -1,0 +1,6 @@
+COMMENT ON TABLE SMTB_USER IS 'To store user details'
+/
+COMMENT ON COLUMN SMTB_USER.PII_ALLOWED IS 'Personally Identifiable Information allowed flag'
+/
+COMMENT ON COLUMN SMTB_USER.IS_FORGOTTEN IS 'Forgotten User Identifier'
+/

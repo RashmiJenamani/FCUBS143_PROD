@@ -1,0 +1,6 @@
+COMMENT ON TABLE STTB_RES_BRANCH IS 'This is the table for storing branch restrictions.'
+/
+COMMENT ON COLUMN STTB_RES_BRANCH.DESCRIPTION IS 'Indicates the Description.'
+/
+COMMENT ON COLUMN STTB_RES_BRANCH.RESTR_TYPE IS 'Indicates the Restriction Type.'
+/

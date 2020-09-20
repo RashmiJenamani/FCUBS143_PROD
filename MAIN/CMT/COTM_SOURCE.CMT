@@ -1,0 +1,8 @@
+COMMENT ON TABLE COTM_SOURCE IS 'This table contains information of Upload Source Maintenance'
+/
+COMMENT ON COLUMN COTM_SOURCE.SOURCE_CODE IS 'Source Code'
+/
+COMMENT ON COLUMN COTM_SOURCE.BASE_DATA_FROM_FC IS 'Base Data From Flexcube'
+/
+COMMENT ON COLUMN COTM_SOURCE.SOURCE_DESC IS 'Source Code Description'
+/

@@ -1,0 +1,14 @@
+INSERT INTO CSTB_LOV_INFO
+(FUNCTION_ID, LOV_ID, FIELD_LIST, LABEL_LIST, REDUCTION_LIST, LOV_QUERY, VISIBLE_LIST, DATATYPE_LIST, LOV_TYPE)
+ VALUES 
+('CFDFLTRI',
+'LOV_RATE_CODE',
+'RATE_CODE~DESCRIPTION~',
+'LBL_RATECD~LBL_DESCRIPTION~',
+'RATE_CODE~DESCRIPTION~',
+'select rate_code,description from cftms_floating_rate_code where record_stat = ''O'' and auth_stat = ''A''',
+'Y~Y~',
+'VARCHAR2~VARCHAR2~',
+'I'
+)
+/

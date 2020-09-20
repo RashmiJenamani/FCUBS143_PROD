@@ -1,0 +1,308 @@
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='ESP',
+QUEUE_ID='ESCALATED',
+MAIN_MENU='Supervisor',
+SUB_MENU='Aumentado',
+DESCRIPTION='Tareas escaladas'
+ WHERE 
+LANG_CODE = 'ESP'
+ AND QUEUE_ID = 'ESCALATED'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='ESP',
+QUEUE_ID='ESCALATED_STD',
+MAIN_MENU='Estándar',
+SUB_MENU='Aumentado',
+DESCRIPTION='Tareas escaladas'
+ WHERE 
+LANG_CODE = 'ESP'
+ AND QUEUE_ID = 'ESCALATED_STD'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='ESP',
+QUEUE_ID='HIGH',
+MAIN_MENU='Prioridad',
+SUB_MENU='Alta',
+DESCRIPTION='Tareas de prioridad alta'
+ WHERE 
+LANG_CODE = 'ESP'
+ AND QUEUE_ID = 'HIGH'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='ESP',
+QUEUE_ID='LOW',
+MAIN_MENU='Prioridad',
+SUB_MENU='Bajo',
+DESCRIPTION='Tareas de prioridad baja'
+ WHERE 
+LANG_CODE = 'ESP'
+ AND QUEUE_ID = 'LOW'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='ESP',
+QUEUE_ID='TODAY',
+MAIN_MENU='Estándar',
+SUB_MENU='Actual',
+DESCRIPTION='Mis tareas para hoy'
+ WHERE 
+LANG_CODE = 'ESP'
+ AND QUEUE_ID = 'TODAY'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='FRC',
+QUEUE_ID='AGING',
+MAIN_MENU='Contrat niveau service',
+SUB_MENU='Ancienneté',
+DESCRIPTION='Tâches d''ancienneté'
+ WHERE 
+LANG_CODE = 'FRC'
+ AND QUEUE_ID = 'AGING'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='FRC',
+QUEUE_ID='ASSIGNED',
+MAIN_MENU='Standard',
+SUB_MENU='Affecté',
+DESCRIPTION='Tâches affectées'
+ WHERE 
+LANG_CODE = 'FRC'
+ AND QUEUE_ID = 'ASSIGNED'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='FRC',
+QUEUE_ID='HIGH',
+MAIN_MENU='Priorité',
+SUB_MENU='Elevée',
+DESCRIPTION='Tâches priorité haute'
+ WHERE 
+LANG_CODE = 'FRC'
+ AND QUEUE_ID = 'HIGH'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='POR',
+QUEUE_ID='ESCALATED_STD',
+MAIN_MENU='Standard',
+SUB_MENU='Escalonada',
+DESCRIPTION='Tarefas Escalonadas'
+ WHERE 
+LANG_CODE = 'POR'
+ AND QUEUE_ID = 'ESCALATED_STD'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='POR',
+QUEUE_ID='RM_APP_STAT',
+MAIN_MENU='Tarefas da Fila de Espera do GR',
+SUB_MENU='Controlo do Estado da Proposta',
+DESCRIPTION='Controlo do Estado da Proposta'
+ WHERE 
+LANG_CODE = 'POR'
+ AND QUEUE_ID = 'RM_APP_STAT'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='POR',
+QUEUE_ID='RM_DOCMISSING',
+MAIN_MENU='Tarefas da Fila de Espera do GR',
+SUB_MENU='Documento:Propostas em Falta',
+DESCRIPTION='Documento:Propostas em Falta'
+ WHERE 
+LANG_CODE = 'POR'
+ AND QUEUE_ID = 'RM_DOCMISSING'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='POR',
+QUEUE_ID='RM_PEND_ACCEPT',
+MAIN_MENU='Tarefas da Fila de Espera do GR',
+SUB_MENU='Aceitação de Propostas Pendentes',
+DESCRIPTION='Aceitação de Propostas Pendentes'
+ WHERE 
+LANG_CODE = 'POR'
+ AND QUEUE_ID = 'RM_PEND_ACCEPT'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='POR',
+QUEUE_ID='RO_ESCALATED',
+MAIN_MENU='Tarefas da Fila de Espera do RR',
+SUB_MENU='Propostas Escalonadas',
+DESCRIPTION='Propostas Escalonadas'
+ WHERE 
+LANG_CODE = 'POR'
+ AND QUEUE_ID = 'RO_ESCALATED'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='POR',
+QUEUE_ID='RO_EXT_AGNCY',
+MAIN_MENU='Tarefas da Fila de Espera do RR',
+SUB_MENU='Propostas das Agências Externas',
+DESCRIPTION='Propostas das Agências Externas'
+ WHERE 
+LANG_CODE = 'POR'
+ AND QUEUE_ID = 'RO_EXT_AGNCY'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='POR',
+QUEUE_ID='RO_POTENTIAL',
+MAIN_MENU='Tarefas da Fila de Espera do RR',
+SUB_MENU='Propostas Potenciais para Aprovação',
+DESCRIPTION='Propostas Potenciais para Aprovação'
+ WHERE 
+LANG_CODE = 'POR'
+ AND QUEUE_ID = 'RO_POTENTIAL'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='POR',
+QUEUE_ID='RO_STATUS_TRACK',
+MAIN_MENU='Tarefas da Fila de Espera do RR',
+SUB_MENU='Controlo do Estado da Proposta',
+DESCRIPTION='Controlo do Estado da Proposta'
+ WHERE 
+LANG_CODE = 'POR'
+ AND QUEUE_ID = 'RO_STATUS_TRACK'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='POR',
+QUEUE_ID='RO_TO_APPROVE',
+MAIN_MENU='Tarefas da Fila de Espera do RR',
+SUB_MENU='Propostas a aprovar',
+DESCRIPTION='Propostas a aprovar'
+ WHERE 
+LANG_CODE = 'POR'
+ AND QUEUE_ID = 'RO_TO_APPROVE'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='VIE',
+QUEUE_ID='ACQUIRED',
+MAIN_MENU='Tiêu chuẩn',
+SUB_MENU='Đã tiếp nhận',
+DESCRIPTION='Công việc đã tiếp nhận'
+ WHERE 
+LANG_CODE = 'VIE'
+ AND QUEUE_ID = 'ACQUIRED'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='VIE',
+QUEUE_ID='ASSIGNED',
+MAIN_MENU='Tiêu chuẩn',
+SUB_MENU='Đã gán',
+DESCRIPTION='Công việc đã gán'
+ WHERE 
+LANG_CODE = 'VIE'
+ AND QUEUE_ID = 'ASSIGNED'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='VIE',
+QUEUE_ID='COMPLETED',
+MAIN_MENU='Tiêu chuẩn',
+SUB_MENU='Đã hoàn thành',
+DESCRIPTION='Công việc đã hoàn thành'
+ WHERE 
+LANG_CODE = 'VIE'
+ AND QUEUE_ID = 'COMPLETED'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='VIE',
+QUEUE_ID='ESCALATED',
+MAIN_MENU='Người giám sát',
+SUB_MENU='Thông báo cho cấp trên',
+DESCRIPTION='Công việc đã báo cáo lên cấp trên'
+ WHERE 
+LANG_CODE = 'VIE'
+ AND QUEUE_ID = 'ESCALATED'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='VIE',
+QUEUE_ID='ESCALATED_STD',
+MAIN_MENU='Tiêu chuẩn',
+SUB_MENU='Thông báo cho cấp trên',
+DESCRIPTION='Công việc đã báo cáo lên cấp trên'
+ WHERE 
+LANG_CODE = 'VIE'
+ AND QUEUE_ID = 'ESCALATED_STD'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='VIE',
+QUEUE_ID='HIGH',
+MAIN_MENU='Ưu tiên',
+SUB_MENU='Cao',
+DESCRIPTION='Công việc có mức độ ưu tiên cao'
+ WHERE 
+LANG_CODE = 'VIE'
+ AND QUEUE_ID = 'HIGH'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='VIE',
+QUEUE_ID='LOW',
+MAIN_MENU='Ưu tiên',
+SUB_MENU='Thấp',
+DESCRIPTION='Công việc có mức độ ưu tiên thấp'
+ WHERE 
+LANG_CODE = 'VIE'
+ AND QUEUE_ID = 'LOW'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='VIE',
+QUEUE_ID='MEDIUM',
+MAIN_MENU='Ưu tiên',
+SUB_MENU='Trung bình',
+DESCRIPTION='Ưu tiên trung bình'
+ WHERE 
+LANG_CODE = 'VIE'
+ AND QUEUE_ID = 'MEDIUM'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='VIE',
+QUEUE_ID='PENDING',
+MAIN_MENU='Tiêu chuẩn',
+SUB_MENU='Đang treo',
+DESCRIPTION='Công việc đang treo'
+ WHERE 
+LANG_CODE = 'VIE'
+ AND QUEUE_ID = 'PENDING'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='VIE',
+QUEUE_ID='SUPERVISOR',
+MAIN_MENU='Tiêu chuẩn',
+SUB_MENU='Người giám sát',
+DESCRIPTION='Công việc của người giám sát'
+ WHERE 
+LANG_CODE = 'VIE'
+ AND QUEUE_ID = 'SUPERVISOR'
+
+/
+UPDATE SMTM_QUEUE_MENU
+ SET LANG_CODE='VIE',
+QUEUE_ID='TODAY',
+MAIN_MENU='Tiêu chuẩn',
+SUB_MENU='Hôm nay',
+DESCRIPTION='Công việc của tôi ngày hôm nay'
+ WHERE 
+LANG_CODE = 'VIE'
+ AND QUEUE_ID = 'TODAY'
+
+/

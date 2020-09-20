@@ -1,0 +1,38 @@
+COMMENT ON TABLE MSTB_ENABLE IS 'It will contain Enable/Disable information about Message'
+/
+COMMENT ON COLUMN MSTB_ENABLE.PRINT IS 'Print allowed or not'
+/
+COMMENT ON COLUMN MSTB_ENABLE.RELEASE IS 'Release of message allowed or not'
+/
+COMMENT ON COLUMN MSTB_ENABLE.TESTAUTH IS 'Test message authorize allowed or not'
+/
+COMMENT ON COLUMN MSTB_ENABLE.MBRANCH IS 'Message branch allowed or not'
+/
+COMMENT ON COLUMN MSTB_ENABLE.REINSTATE IS 'Reinstate of message allowed or not'
+/
+COMMENT ON COLUMN MSTB_ENABLE.TESTWORD_STATUS IS 'Test word status of the message'
+/
+COMMENT ON COLUMN MSTB_ENABLE.CPRIORITY IS 'Change priority allowed or not'
+/
+COMMENT ON COLUMN MSTB_ENABLE.CNODE IS 'Change of node allowed or not'
+/
+COMMENT ON COLUMN MSTB_ENABLE.CMEDIA IS 'Change media allowed or not'
+/
+COMMENT ON COLUMN MSTB_ENABLE.TESTINPUT IS 'Test message input allowed or not'
+/
+COMMENT ON COLUMN MSTB_ENABLE.HANDOFF IS 'Handoff allowed or not'
+/
+COMMENT ON COLUMN MSTB_ENABLE.CANCEL IS 'Cancel of message allowed or not'
+/
+COMMENT ON COLUMN MSTB_ENABLE.CADDR IS 'Change of address allowed or not'
+/
+COMMENT ON COLUMN MSTB_ENABLE.GENERATE IS 'Generate message allowed or not'
+/
+COMMENT ON COLUMN MSTB_ENABLE.MSG_STATUS IS 'This indicates the status of the message'
+/
+COMMENT ON COLUMN MSTB_ENABLE.RESEND IS 'Resend allowed or not'
+/
+COMMENT ON COLUMN MSTB_ENABLE.HOLD IS 'Hold message allowed or not'
+/
+COMMENT ON COLUMN MSTB_ENABLE.HOLD_STATUS IS 'Hold status of the message'
+/

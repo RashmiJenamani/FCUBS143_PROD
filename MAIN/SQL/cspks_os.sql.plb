@@ -1,0 +1,80 @@
+PROMPT 1. Creating Dummy Library host_lib, Please do not change the CREATE to CREATE OR REPLACE.
+PROMPT 2. This may give a "ORA-00955: name is already used by an existing object" error, please ignore this.
+PROMPT 3. Actual creation of this library has to be done as defined in host.c under PROC folder.
+CREATE LIBRARY host_lib wrapped 
+a000000
+367
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+16
+24 55
+oMLRvuZ7iKCCac9GtvuDTRL/0w4wg04I9Z7AdBjDhYWW0fRy+lkJpXQraeo+Wlb6UFu9KZTB
+CoKmpjxAmaw=
+
+/
+PROMPT Creating Package Body cspks_os 
+create or replace package body cspks_os wrapped 
+a000000
+367
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+abcd
+b
+1261 865
+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
+ndT12u2aGLrwuBQkP9IyTbXZJESRQXg=
+
+/

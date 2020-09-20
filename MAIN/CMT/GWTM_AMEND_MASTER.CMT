@@ -1,0 +1,10 @@
+COMMENT ON TABLE GWTM_AMEND_MASTER IS 'This table stores all the allowed services and operations for an external system.'
+/
+COMMENT ON COLUMN GWTM_AMEND_MASTER.SERVICE_NAME IS 'Service name.'
+/
+COMMENT ON COLUMN GWTM_AMEND_MASTER.SOURCE_OPERATION IS 'Source operation name.'
+/
+COMMENT ON COLUMN GWTM_AMEND_MASTER.OPERATION_CODE IS 'Operation name.'
+/
+COMMENT ON COLUMN GWTM_AMEND_MASTER.EXT_SYSTEM IS 'External system name.'
+/
